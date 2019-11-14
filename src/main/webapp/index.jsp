@@ -18,7 +18,7 @@
     //判断当前浏览器是否支持WebSocket  
     if ('WebSocket' in window) {  
         //websocket = new WebSocket("ws://localhost:8080/web1/websocket");
-        websocket = new WebSocket("ws://localhost:8080/heroesports2/ws");
+        websocket = new WebSocket("ws://192.168.0.82:8080/heroesports2/ws");
     }  
     else {  
         alert('当前浏览器 Not support websocket')  
